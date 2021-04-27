@@ -25,7 +25,7 @@
 
   `如何移动：`王可以向任意方向移动一个方块
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/king's-movement.png)
+  ![王可以向任意方向移动一个方块](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/king's-movement.png "王")
 
 - #### 1个后（Queen）：
 
@@ -35,7 +35,7 @@
 
   `是否可以跨越棋子：`不可以
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/queen\s-movement.png)
+  ![后可以向前、后、左、右以及斜线共8个方向移动任意个方块](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/queen\s-movement.png "后")
 
 - #### 2个车（Rook）：
 
@@ -45,7 +45,7 @@
 
   `是否可以跨越棋子：`不可以
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/rook's-movement.png)
+  ![车可以向前、后、左、右四个方向移动任意个方块](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/rook's-movement.png "车")
 
 - #### 2个象（Bishop）：
 
@@ -55,7 +55,7 @@
 
   `是否可以跨越棋子：` 不可以
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/bishop's-movement.png)
+  ![象可以向斜线上的四个方向移动任意个方块，分为白象和黑象，白象始终在白格中移动，黑象始终在黑格中移动](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/bishop's-movement.png "象")
 
 - #### 2个马（Knight）：
 
@@ -65,7 +65,7 @@
 
   `是否可以跨越棋子：` 可以，马是国象中唯一一个可以跨越其他棋子的棋子
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/knights-movement.png)
+  ![马不走直线，走L型，象没走一次都会调到与当前颜色相反的方块上](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/knights-movement.png "马")
 
 - #### 8个兵（Pawn）：
 
@@ -79,7 +79,7 @@
 
   `是否可以跨越棋子：`否
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/pawn's-movement.png)
+  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/pawn's-movement.png "兵")
 
   
 
@@ -89,7 +89,7 @@
 
   `升变选项：`后、车、象、马（因为每一方只能有一个王，所以兵不能升变成为王）
 
-  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/pawn-promotion.png)
+  ![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/pawn-promotion.png "兵的升变")
 
 ### `棋盘摆放`
 
@@ -106,7 +106,7 @@
 - 白色的后放在白色方最近一行中剩余的白色格子里，黑色的后放在黑色防最近一行中剩余的黑色格子里
 - 各方最近一行中最后的那个位置就是王的位置
 
-![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/chess-placing.png)
+![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/chess-placing.png "国象初始棋盘布局")
 
 ### `游戏目标`
 
@@ -140,13 +140,13 @@
 
 如果一方被将军，并且不能通过移动、阻塞、吃棋来到到解除将军的目的，那我们成这种情况叫做将死，这表示被将死的一方输了，而对方赢了。最快速的将死只需要两步棋：
 
-![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/fastest-checkmate.png)
+![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/fastest-checkmate.png "将死示例")
 
 ### `和棋（stalemate）`
 
 一方即使没有被将军，但是也没有任何可以走的棋，那么当这种情况放生时，棋局的结果是和棋，没有输赢。如下所示就是一种和棋的情况，轮到白方走了，但是白方无论怎么走都会被将军，所以成了和棋：
 
-![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/stalemate-example-1.png)
+![](https://cdn.jsdelivr.net/gh/SuperGch/picgo/note-imgs/stalemate-example-1.png "和棋stalemate示例")
 
 ### `其他和棋（draw）`
 
